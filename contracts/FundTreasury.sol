@@ -19,7 +19,7 @@ contract FundTreasury {
          */
         owner = msg.sender;
     }
-    function fund() external payable {
+    function fund() public payable {
         require(msg.value > 0, "ZERO_VALUE");
         contributions[msg.sender] += msg.value;
     }
