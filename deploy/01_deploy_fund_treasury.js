@@ -9,4 +9,4 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     });
 };
 
-module.exports.tags = ["FundTreasury"];
+module.exports.tags = ["all","FundTreasury"];
